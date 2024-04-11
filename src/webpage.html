@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html Lang="en">
+
+<head>
+
+    <title>
+        My First web Page
+    </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="navbar">
+        <img id="logo" alt="Jovian Logo" src="https://i.imgur.com/m1wXjqw.png" />
+
+    </div>
+    <img id="banner" src="banner.jpg" alt="Banner">
+    <h1>
+        About John
+    </h1>
+
+    <div id="about">
+        <div id="description">
+            <p style="margin-top: 0;">
+                At John we're on mission to build In publishing and graphic design, Lorem ipsum is a placeholder text
+                commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful
+                content.
+            </p>
+            <p>We also offer
+            <ol>
+                <li>
+                    <a href="https://jovian.com/learn/introduction-to-programming-with-python">
+                        Introduction to Programming To Python
+                    </a>
+                </li>
+                <li>
+                    <a href="https://jovian.com/learn/data-analysis-with-python-zero-to-pandas">
+                        Data Analysis with Python
+                    </a>
+                </li>
+            </ol>
+            </p>
+        </div>
+        <div id="team">
+            <img id="team-image" src="team.jpg" alt="Team">
+        </div>
+    </div>
+
+
+    <h2> Job Opportunities</h2>
+    <div id="jobs">
+        <table id="jobs-table">
+            <tr class="jobs-header-row">
+                <th rowspan="2">Job Title</th>
+                <th colspan="2">Location</th>
+                <th rowspan="2">Salary</th>
+                <th rowspan="2">Posted On</th>
+            </tr>
+            <tr class="jobs-header-row">
+                <th>City</th>
+                <th>Country</th>
+            </tr>
+            <tr class="jobs-data-row">
+                <td>Frontend Developer</td>
+                <td>Lalitpur</td>
+                <td>Nepal</td>
+                <td>Rs12,00,000</td>
+                <td>Jan 3, 2024</td>
+            </tr>
+            <tr class="jobs-data-row">
+                <td>Full Stack Developer</td>
+                <td colspan="2">Remote</td>
+                <td>Rs15,00,000</td>
+                <td>March 3, 2024</td>
+            </tr>
+            <tr class="jobs-data-row">
+                <td>Data Scientist</td>
+                <td>Kathmandu</td>
+                <td>Nepal</td>
+                <td>Rs17,00,000</td>
+                <td>April 7, 2024</td>
+            </tr>
+            <tr class="jobs-data-row">
+                <td>ML engineer</td>
+                <td>Bhaktpur</td>
+                <td>Nepal</td>
+                <td>Rs80,000</td>
+                <td>May 2, 2024</td>
+            </tr>
+
+        </table>
+    </div>
+
+    <div id="application">
+        <h2>Submit Your Application</h2>
+
+        <div class="center">
+
+        <form id="application-form">
+
+            <div class="form-group">
+                <label for="name">Full Name</label><br>
+                <input type="text" id="name" name="Full Name" required placeholder="John Doe">
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email</label><br>
+                <input type="email" id="email" name="Email Address" required placeholder="jdoe@example.com"><br>
+            </div>
+
+            <div class="form-group">
+
+                <label for="phone">Phone</label><br>
+                <input type="tel" id="phone" name="Phone" required placeholder="+9779803373358">
+
+            </div>
+
+            <div class="form-group">
+
+                <label for="dob">Date Of Birth</label><br>
+                <input type="date" id="dob" name="dob" required>
+
+            </div>
+
+            <div class="form-group">
+                <label for="position">Position Applied For</label><br>
+                <select id="position" name="Position Applied" required>
+                    <option value="">Select Position</option>
+                    <option value="frontedn developer">Frontend Developer</option>
+                    <option value="full stack developer">Full Stack Developer</option>
+                    <option value="data scientist">Data Scientist</option>
+                    <option value="ml engineer">ML Engineer</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="resume">Upload Resume</label><br>
+                <input type="file" id="resume" name="resume" accept=".pdf,.doc,.docx" required>
+
+            </div>
+
+            <div class="form-group">
+                <label for="coverletter">Cover Letter</label><br>
+                <textarea id="coverletter" name="coverletter" rows="5"
+                    placeholder="Explain what makes you suitable for the job"></textarea>
+
+            </div>
+
+            <div class="form-group">
+                <label for="terms">
+                    <input type="checkbox" id="terms" name="terms" required>
+                    I agree to the terms and conditions
+                </label>
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Submit Application">
+            </div>
+
+        </form>
+        </div>
+
+    </div>
+
+    <div id="footer">
+        <ul id="footer-links">
+
+            <li>
+                <a href="https://jovian.com/learn" target="_blank">
+                    Courses
+                </a>
+            </li>
+            <li>
+                <a href="https://jovian.com/learn" target="_blank">
+                    Programs
+                </a>
+            </li>
+            <li>
+                <a href="https://youtube.com/@jovianhq" target="_blank">
+                    Youtube
+                </a>
+            </li>
+
+        </ul>
+        <span class="copyright">© 2024, John </span>
+    </div>
+
+</body>
+
+</html>
